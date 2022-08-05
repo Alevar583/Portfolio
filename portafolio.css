@@ -1,0 +1,97 @@
+html {
+  box-sizing: border-box;
+}
+
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+body {
+    font-family: 'Raleway', sans-serif;
+}
+
+
+/* Base */
+
+
+/* Repetitivas */
+.w-900 {
+    font-weight: 900;
+}
+
+.w-700 {
+    font-weight: 700;
+}
+
+.w-400 {
+    font-weight: 400;
+}
+
+.font-white {
+    color: white;
+}
+
+.decoration-none {
+    text-decoration: none;
+
+}
+
+.text-right {
+    text-align: right;
+}
+
+
+
+.margin-auto{
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+/* Header */
+.img-fondo {
+    background-image: url(imagenes/fondo-portfolio.gif);
+    background-attachment:fixed;
+    height: 41rem;
+    width: 100%;
+    
+}
+
+/* nav */
+.nav-bar {
+    background-color: rgba(160, 160, 160, 0.144);
+    border-radius: 2px;
+}
+
+.text-nav {
+    font-size: 2rem;
+}
+
+/* contenido header */
+.saludo {
+    font-size: 2.5rem;
+    margin-top: 0.5em;
+    font-weight: 900;
+}
+
+
+/* iconos */
+
+.iconos {
+    width: 90px;
+    height: 70px;
+    background-repeat: no-repeat;
+}
+
+.bootstrap {
+    width: 70px;
+    height: 70px;
+}
+
+
+
+
+
+
+
+
