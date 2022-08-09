@@ -25,7 +25,7 @@
 
 
 
-    <header class="container-fluid img-fondo vh-100 p-0">
+    <header class="container-fluid img-fondo     vh-100 p-0">
 
 
         <nav class="nav-bar d-flex justify-content-between align-items-center p-2">
@@ -52,6 +52,8 @@
 
             </div>
 
+
+
         </nav>
 
 
@@ -65,15 +67,17 @@
 
 
             <div class="text-white text-center">
-               <ul class="list-unstyled h1 fw-bolder">
-                <li>Hola!</li>
-                <li>Soy Alejandro</li>
-                <li>Web developer</li>
-               </ul>
+                <ul class="list-unstyled h1 fw-bolder">
+                    <li>Hola!</li>
+                    <li>Soy Alejandro</li>
+                    <li>Web developer</li>
+                    <li>
+                        <button type="button" class="btn btn-primary               btn-lg">Contactame!</button>
+                        <button type="button" class="btn btn-primary btn-lg">Mis proyectos</button>
+                    </li>
+                </ul>
             </div>
 
-
-        </div>
 
     </header>
 
@@ -90,6 +94,8 @@
                     dolores,
                     nemo vitae officia suscipit libero? Magni vitae repudiandae deserunt quasi quod atque unde rem autem
                     nisi sed dolorum animi inventore ut ad, ex assumenda quam.</h3>
+                <button type="button" class="btn btn-primary btn-sm">Descargar CV</button>
+
             </div>
 
 
@@ -100,27 +106,20 @@
 
 
                     <div class="iconos col">
-                        <img src="iconos/003-html.png" alt="">
+                        <img src="iconos/003-html.png" title="Html">
                     </div>
                     <div class="iconos col">
-                        <img src="iconos/javascript.png" alt="">
+                        <img src="iconos/javascript.png" title="Javascript">
                     </div>
                     <div class="iconos col">
-                        <img src="iconos/github.png" alt="">
+                        <img src="iconos/github.png" title="Github">
                     </div>
                     <div class="iconos col">
-                        <img src="iconos/css.png" alt="">
+                        <img src="iconos/css.png" title="Css">
                     </div>
                     <div class="iconos col bootstrap">
-                        <img class="bootstrap" src="iconos/bootstrap.png" alt="">
+                        <img class="bootstrap" src="iconos/bootstrap.png" title="Bootstrap">
                     </div>
-
-
-                    <!-- <img class="iconos" src="iconos/css.png" alt="">
-                <img class="iconos" src="iconos/github.png" alt="">
-                <img class="iconos" src="iconos/javascript.png" alt="">
-                <img class="iconos" src="iconos/003-html.png" alt="">
-                <img class="iconos" src="iconos/photoshop.png" alt=""> -->
 
 
                 </div>
@@ -132,6 +131,70 @@
         </div>
 
     </div>
+
+    <p>
+        <h2 class="text-center">
+            Mis proyectos
+        </h2>
+    </p>
+
+    <div class="d-flex justify-content-center">
+
+
+        <div id="carouselExampleCaptions" class="carousel slide w-75" data-bs-ride="false">
+            <div class="carousel-indicators">
+                <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active"
+                    aria-current="true" aria-label="Slide 1"></button>
+                <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1"
+                    aria-label="Slide 2"></button>
+                <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2"
+                    aria-label="Slide 3"></button>
+            </div>
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img src="imagenes/fondodefinitivo2.jpg" class="d-block w-100" alt="...">
+                    <div class="carousel-caption d-none d-md-block">
+                        <h5>
+                            <a href="https://aprendiendo-1922.000webhostapp.com/unidad12" class="text-decoration-none text-white"> Fracta-Agricultura Urbana</a>
+                        </h5>
+                        <p>Some representative placeholder content for the first slide.</p>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img src="imagenes/fondodefinitivo2.jpg" class="d-block w-100" alt="...">
+                    <div class="carousel-caption d-none d-md-block">
+                        <h5>Second slide label</h5>
+                        <p>Some representative placeholder content for the second slide.</p>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img src="imagenes/fondodefinitivo2.jpg" class="d-block w-100" alt="...">
+                    <div class="carousel-caption d-none d-md-block">
+                        <h5>Third slide label</h5>
+                        <p>Some representative placeholder content for the third slide.</p>
+                    </div>
+                </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions"
+                data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions"
+                data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </button>
+        </div>
+
+    </div>
+
+
+    <footer class="d-flex justify-content-center bg-black p-2 mt-5">
+        <p>
+            © 2022 - Vargas Alejandro
+        </p>
+    </footer>
 
 
 
